@@ -46,6 +46,12 @@ Prints a one-line system summary including:
 
 Demonstrates the use of command substitution (`$(...)`) and basic formatting.
 
+### `greet.sh`
+Greets the user using a Bash function.  
+Takes a name and optional country as arguments:
+- `./greet.sh Daniel Romania`
+- Uses `$1`, `$2`, `if`, and a custom function.
+
 ---
 
 ## 🚀 Purpose
