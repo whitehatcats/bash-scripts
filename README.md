@@ -38,6 +38,14 @@ Displays key environment variables and system information such as:
 
 Uses a mix of environment variables and command outputs to display the system snapshot.
 
+### `quick-stats.sh`
+Prints a one-line system summary including:
+- Current time
+- Current date
+- System load average
+
+Demonstrates the use of command substitution (`$(...)`) and basic formatting.
+
 ---
 
 ## 🚀 Purpose
