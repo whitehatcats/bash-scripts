@@ -17,6 +17,10 @@ Displays basic system information:
 - CPU model
 - Memory usage
 
+### `disk-check.sh`
+Checks the current disk usage of the root filesystem (`/`).  
+If usage is over a set threshold (default: 80%), it prints a warning.
+
 ---
 
 ## 🚀 Purpose
@@ -31,5 +35,5 @@ I'm using it to practice scripting and automation while building a personal port
 Make the script executable and run it:
 
 ```bash
-chmod +x system-info.sh
-./system-info.sh
+chmod +x script-name.sh
+./script-name.sh
