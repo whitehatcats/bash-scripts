@@ -21,6 +21,23 @@ Displays basic system information:
 Checks the current disk usage of the root filesystem (`/`).  
 If usage is over a set threshold (default: 80%), it prints a warning.
 
+### `print-env.sh`
+Displays key environment variables and system information such as:
+- Username
+- Home directory
+- Shell
+- Current working directory
+- Hostname
+- Language
+- CPU model
+- Architecture
+- Kernel version
+- Total memory
+- Root disk usage
+- OS version
+
+Uses a mix of environment variables and command outputs to display the system snapshot.
+
 ---
 
 ## 🚀 Purpose
