@@ -59,6 +59,13 @@ Demonstrates loop syntax, input validation, and numeric comparison.
 Usage:
 - `./count-loop.sh 5`
 
+### `check-internet.sh`
+Pings google.com to check internet connectivity.  
+Demonstrates exit codes and basic error handling.
+
+- Exit code `0` = success
+- Exit code `1` = failure
+
 ---
 
 ## 🚀 Purpose
