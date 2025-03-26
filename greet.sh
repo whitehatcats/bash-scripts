@@ -3,7 +3,7 @@
 # Define a greeting function
 greet() {
   local name="$1"
-  local country="$1"
+  local country="$2"
 
   if [ -z "$name" ]; then
     echo "❌ No name provided. Usage: ./greet.sh <name> [country]"
