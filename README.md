@@ -52,6 +52,13 @@ Takes a name and optional country as arguments:
 - `./greet.sh Daniel Romania`
 - Uses `$1`, `$2`, `if`, and a custom function.
 
+### `count-loop.sh`
+Counts from 1 to a given number using both `for` and `while` loops.  
+Demonstrates loop syntax, input validation, and numeric comparison.
+
+Usage:
+- `./count-loop.sh 5`
+
 ---
 
 ## 🚀 Purpose
