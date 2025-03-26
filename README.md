@@ -66,6 +66,14 @@ Demonstrates exit codes and basic error handling.
 - Exit code `0` = success
 - Exit code `1` = failure
 
+### `auto-snapshot.sh`
+Logs basic system info (hostname, uptime, load) into timestamped `.log` files inside a `logs/` folder.  
+Designed to be run on a schedule using `cron`.
+
+Example cron job (every 10 mins):
+```cron
+*/10 * * * * /home/daniel/projects/bash-scripts/auto-snapshot.sh
+
 ---
 
 ## 🚀 Purpose
